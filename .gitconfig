@@ -1,0 +1,6 @@
+[user]
+	name = So-chiru
+	email = unleash9224@gmail.com
+	signingkey = 4BBD9D6F9289B5C22997035C3A1A681A97E9CC20
+[commit]
+	gpgsign = true

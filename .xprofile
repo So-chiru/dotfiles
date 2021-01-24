@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export GTK_IM_MODULE=kime
+export QT_IM_MODULE=kime
+export XMODIFIERS=@im=kime
+
+kime-xim &
+picom --experimental-backends &
+zsh ~/.config/polybar/launch.sh &
+zsh ~/.config/feh/launch &
