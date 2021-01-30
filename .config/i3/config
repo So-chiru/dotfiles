@@ -184,7 +184,7 @@ bindsym $mod+s exec spotify
 bindsym $mod+v exec code
 bindsym $mod+d exec discord
 bindsym $mod+g exec gimp
-bindsym $mod+f exec firefox-nightly
+bindsym $mod+f exec firefox
 
 for_window [class=".*"] border pixel 0
 border_radius 13
@@ -203,5 +203,5 @@ smart_borders on
 #        font pango:Noto Sans CJK 10
 #}
 
-# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id zsh $HOME/.config/polybar/launch.sh
 

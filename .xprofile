@@ -6,5 +6,6 @@ export QT_IM_MODULE=kime
 
 kime-xim &
 picom --experimental-backends &
-zsh ~/.config/polybar/launch.sh &
 zsh ~/.config/feh/launch &
+
+# zsh ~/.config/polybar/launch.sh &
