@@ -1,6 +1,5 @@
 [user]
 	name = So-chiru
-	signingkey = 4BBD9D6F9289B5C22997035C3A1A681A97E9CC20
 [commit]
 	gpgsign = true
 [include]
