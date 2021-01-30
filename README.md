@@ -29,13 +29,18 @@ mkfs.ext4 /dev/sd(x)(number) # number를 ext4 로 포맷
 ```
 
 ### 3. Enable swap
+
+```
 swapon /dev/sd(x)(number)
+```
 
 ### 4. Mount
 
+```
 mount /dev/sd(x)(number) /mnt
 mkdir /mnt/boot
 mount /dev/sdb(x)(number [boot]) /mnt/boot
+```
 
 ### 5. Add Korean mirrorlist
 
